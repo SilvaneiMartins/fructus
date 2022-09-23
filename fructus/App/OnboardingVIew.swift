@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OnboardingVIew: View {
+struct OnboardingView: View {
     // MARK: - Propriedae
     
     var fruits: [Fruit] = fruitsData
@@ -27,6 +27,6 @@ struct OnboardingVIew: View {
 // MARK: - Visualizaçãos
 struct OnboardingVIew_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingVIew(fruits: fruitsData)
+        OnboardingView(fruits: fruitsData)
     }
 }
